@@ -6,7 +6,7 @@ import { TopCard } from "../components/topcard";
 import { useNavigate } from "react-router-dom";
 import LoadingSpinner from "../components/spinner";
 // import bag2 from "../assets/bags2.webp";
-import bag1 from "../assets/land.jpg";
+import bag1 from "../assets/es.jpg";
 // import shoe1 from "../assets/shoe1.webp";
 // import shoe2 from "../assets/shoe2.webp";
 
@@ -59,15 +59,11 @@ export function LandingPage() {
 
   return (
     <div className="lg:absolute lg:left-[35%] lg:top-[12%] lg:w-[60%]">
-      <div className="relative text-left border-b border-[#ffc5b9] rounded-b-[20px] pt-[16%] lg:pt-[8%] lg:top-[25%]">
+      <div className="relative text-left border-b rounded-b-[20px] pt-[16%] lg:pt-[8%] lg:top-[25%]">
         <img src={images[index]} alt="Cadmus" className="h-[400px] w-[100%] object-cover animate-zoom-in-fade rounded-b-[20px]"/>
-        <div className="flex flex-col items-center justify-center w-[100vw] lg:w-[60vw] h-[88.5%] absolute top-[16%] mt-[-1.3rem] rounded-b-[20px] overLanding">
-        <p className="mx-[1rem] text-3xl text-white">CADMUS DE VOGUE</p>
-          <p className="mx-[1rem] text-3xl text-[#ffc5b9] font-bold headingFont">ELEGANCE AND STYLE</p>
-        </div>
       </div>
       <Search />
-      <div className="flex justify-between p-2 px-[1.5rem] mb-[1rem] text-[#86574E] bg-[#ffc5b9] font-bold rounded-[20px] heading">
+      <div className="flex justify-between p-2 px-[1.5rem] mb-[1rem] text-[#f7f0e4] bg-[#43613d] font-bold rounded-[20px] heading">
         <h2 className="uppercase">Collections</h2>
         <p
           onClick={() => {
